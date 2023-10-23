@@ -7,12 +7,12 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCYpCMRbgifobgwsN3y6RIuw5DVpS2DRkQ",
-  authDomain: "coin-hive-b3d62.firebaseapp.com",
-  projectId: "coin-hive-b3d62",
-  storageBucket: "coin-hive-b3d62.appspot.com",
-  messagingSenderId: "265642514268",
-  appId: "1:265642514268:web:8effa54f3c15ff87afd399",
+  apiKey: import.meta.env.VITE_APIKEY,
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_ID,
 };
 
 // Initialize Firebase
