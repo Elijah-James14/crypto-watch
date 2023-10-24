@@ -6,7 +6,7 @@ Users can get details of any cryptocurrency in the world by clicking on the coin
 Firestore database was used as backend.
 CSS styling was done using tailwind CSS.
 
-Check out the website here at [Coin Hive](https://crypto-watch-xi.vercel.app/coin/tether)
+Check out the website here at [Coin Hive](https://crypto-watch-xi.vercel.app/)
 
 ## Here is the home page
 ![coin1](https://github.com/Elijah-James14/crypto-watch/assets/123472108/dd29e5ae-80ff-46cd-8324-5d28d6c2ff7b)
